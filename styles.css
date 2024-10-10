@@ -1,41 +1,73 @@
-h1 {
+h3 {
     font-style: oblique;
+    margin: 0;
 }
-h3{
+
+h5 {
     font-style: oblique;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+.post-card {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
 
-}
-.post-header{
+.post-title {
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
 
-}
-.Post-icons {
-    width: 100%;
+.left-content {
     display: flex;
-    justify-content: space-around;  
+    align-items: center;
 }
-.icons-like {
+
+.left-content i {
+    margin-right: 10px;
+}
+
+.text-content {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
 }
-.fa-regular {
-    margin: 10px;
+
+
+.share-inst {
+    margin-left: auto;
+    cursor: pointer;
 }
-.fa-share {
-    display: flex;
-    justify-content: end;
+
+.img {
+    margin-top: 20px;
 }
+
 img {
     width: 100%;
-    margin-top: 22px;
 }
-.fa-ellipsis-vertical {
-    display: flex;
-    justify-content: end;
 
-}
-.fa-instagram {
+.post-icons {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.icons-like {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-like i {
+    margin-right: 10px;
+}
+
+.share-icon {
+    margin-left: auto;
 }
